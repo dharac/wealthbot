@@ -1,0 +1,256 @@
+/* latin-ext */
+@font-face {
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Titillium Web'), local('TitilliumWeb-Regular'), url(../../../css/fonts/7XUFZ5tgS-tD6QamInJTcSo_WB_cotcEMUw1LsIE8mM.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Titillium Web'), local('TitilliumWeb-Regular'), url(../../../css/fonts/7XUFZ5tgS-tD6QamInJTcZSnX671uNZIV63UdXh3Mg0.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+.trans-button
+{
+	background-color: Transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    overflow: hidden;
+    outline: 0;
+}
+
+#internetError
+{
+	position: fixed;
+    background: #f44336;
+    color: #FFF;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 9999999;
+    width: 200px;
+    margin: 0 auto;
+    padding: 5px;
+    text-align: center;
+    border-radius: 0px 0px 2px 2px;
+}
+
+#internetSuccess
+{
+	position: fixed;
+    background: #4caf50;
+    color: #FFF;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 9999999;
+    width: 200px;
+    margin: 0 auto;
+    padding: 5px;
+    text-align: center;
+    border-radius: 0px 0px 2px 2px;
+}
+.searchUser
+{
+    position: absolute;
+    top: 28px;
+    right: 0;
+    left: 0;
+    z-index: 99999999999;
+    background: #F00;
+    min-height: 300px;
+    padding: 10px;
+    background: #FFF;
+    border: 1px solid #CCC;
+    display: none;
+}
+.searchUser ul
+{
+    padding:0px;
+    margin:0px;
+    list-style: none;
+}
+.searchUser ul li
+{
+    margin:0px;
+}
+.searchUser ul li a 
+{
+    padding:5px;
+    display: block;
+    border-bottom: 1px dotted #CCC;
+}
+
+.select2-container--bootstrap .select2-selection--single .select2-selection__rendered
+{
+    font-family: 'Titillium Web', sans-serif !important;   
+}
+#public_footer
+{
+    clear: both;
+}
+#public_footer ul
+{
+    list-style: none;
+    text-align: center;
+}
+#public_footer ul li
+{
+    display: inline-block;
+}
+#public_footer ul li a
+{
+    padding: 10px;
+}
+.nav .nav-link1
+{
+    font-size: 14px !important;
+    color: #3097d1;
+    margin-right: 10px;
+}
+
+.datepicker_cls
+{
+    background: #fff !important;
+    cursor: pointer !important;
+    padding: 5px 10px !important;
+    border: 1px solid #ccc !important;
+    margin-right: 13px !important;
+    margin-top: 10px !important;
+}
+
+.userFetch
+{
+    padding-left: 30px;
+    color: green;
+}
+.userFetch i
+{
+    right: 0;
+    position: absolute;
+    left: 0;
+    top: 10px;
+    right: 0;
+    left: 0 !important;
+    float: left;
+    margin-top: 34px;
+    margin-left: 10px;
+}
+
+#chart_report_modal .modal-lg,
+#referral_report_modal .modal-lg,
+#change_plan_modal1 .modal-lg,
+#change_plan_modal .modal-lg,
+#country_report_modal .modal-lg,
+#UserModal .modal-lg,
+#UserModal3 .modal-lg,
+#UserModal5 .modal-lg
+{
+    max-width: 1200px;
+}
+
+.navbar-brand .hidden-folded small
+{
+    display: block;
+    font-size: 13px;
+    line-height: 19px;
+}
+
+#searchUser .easy-autocomplete-container ul
+{
+    position: absolute;
+    right: 0;
+    left: 0;
+    z-index: 99999;
+    background: #f9f2f2;
+    overflow: hidden;
+    top: 27px;
+    padding-left: 0px;
+    width: auto;
+    margin: auto;
+}
+#searchUser .easy-autocomplete-container ul>li {
+    list-style: none;
+    padding: 5px 10px;
+}
+
+#searchUser .easy-autocomplete-container ul>li:hover
+{
+    cursor: pointer;
+}
+
+#searchUser .easy-autocomplete input
+{
+    border-color: #ccc;
+    padding: 4px 12px !important;
+    border-radius: 0px;
+}
+
+#searchUser .easy-autocomplete-container ul .selected
+{
+    background: #e4dddd !important;
+}
+
+#searchUser .easy-autocomplete
+{
+    width: 100% !important;
+}
+.clearfix
+{
+    clear: both !important;
+}
+.app-footer 
+{
+    position: relative;
+}
+.padding
+{
+    padding-bottom:5px !important;
+}
+
+
+.translated-ltr .app-aside 
+{
+    top: 40px;
+}
+.translated-ltr .app-aside.sm:not(.hide)~.app-content 
+{
+    margin-top: 40px;
+}
+
+@media screen and (max-width: 768px)
+{
+    .translated-ltr .modal>.left
+    {
+        top: 40px;
+    }
+}
+.translated-rtl .app-aside 
+{
+    top: 40px;
+}
+.translated-rtl .app-aside.sm:not(.hide)~.app-content 
+{
+    margin-top: 40px;
+}
+
+@media screen and (max-width: 768px)
+{
+    .translated-rtl .modal>.left
+    {
+        top: 40px;
+    }
+}
+
+.dashboard-icon .p-a .text-muted
+{
+    color: #FFF !important;
+}
