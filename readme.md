@@ -7,4 +7,4 @@
 - MYSQL
 - Laravel 5.4
 - THEME : FLATKIT
-- Developer : Ashish Parmar
+- Developer : Ashish Parmar 1
